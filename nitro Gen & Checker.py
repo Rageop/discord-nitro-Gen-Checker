@@ -17,7 +17,7 @@ file = open('NitroCodes.txt','w',encoding='utf-8')
 for i in range(num):
     code = "".join(random.choices(
             string.ascii_uppercase + string.digits + string.ascii_lowercase,
-            k = 19
+            k = 16
         ))
     file.write(f'https://discord.gift/{code}\n')
 print(f'{num} codes were generated.')
