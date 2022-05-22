@@ -1,9 +1,5 @@
-from opcode import opname
-from os import link
 import random
-import re
 import string
-from turtle import st
 import requests
 
 
